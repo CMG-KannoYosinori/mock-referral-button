@@ -14,9 +14,9 @@
 
 # CSSファイルについて
 ## PC 
-[https://www.moratame.net/css/foundation/reset-old-style/style--pc.css](https://www.moratame.net/css/foundation/reset-old-style/style--pc.css) に追記しています。
+`css/style--pc.css` のコードを [https://www.moratame.net/css/style--pc.css](https://www.moratame.net/css/style--pc.css) に追記してください。
 ## SP
-[https://www.moratame.net/css/foundation/reset-old-style/style--sp.css](https://www.moratame.net/css/foundation/reset-old-style/style--sp.css) に追記しています。
+`s/css/style--sp.css` のコードを [https://www.moratame.net/s/css/style--sp.css](https://www.moratame.net/s/css/style--sp.css) に追記してください。
 
 `/* referral-button */` から `/* /referral-button */` のブロックです。
 
