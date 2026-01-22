@@ -15590,26 +15590,23 @@ div.ui-panel .drwMnNavList a:hover, div.ui-panel .drwMnNavList a:active {
 }
 
 /* referral-button */
-.p-referral {
-}
 .p-referral-button {
   height:42px;
   position:relative;
-  display:block;
+  display:grid;
+  align-items:center;
   font-size:12px;
   font-weight:700;
   color:#444444;
   line-height:18px;
-  background-image: url(../../image/images/referral-button/referral-button-poke.png),url(../../image/images/referral-button/referral-button-ket.png),linear-gradient(90deg, #f4e2b3, #faefd4 51%, #f4e2b3);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: left top -16px, right top -14px, center center;
-  background-size: 76px,76px, auto;
+  text-align:center;
+  background-image:url(../../image/images/referral-button/referral-button-poke.png),url(../../image/images/referral-button/referral-button-ket.png),linear-gradient(90deg, #f4e2b3, #faefd4 51%, #f4e2b3);
+  background-size:76px,76px, auto;
+  background-position:left top -16px, right top -14px, center center;
+  background-repeat:no-repeat, no-repeat, no-repeat;
   border:1px solid #f4e2b3;
   border-radius:4px;
-  margin-top: 12px;
-  text-align:center;
-  display: grid;
-  align-items: center;
+  margin-top:12px;
 }
 a.p-referral-button:hover {
   text-decoration:none;
@@ -15617,6 +15614,5 @@ a.p-referral-button:hover {
 .p-referral-button-strong {
   color:#e32401;
 }
-
 
 /* /referral-button */
